@@ -90,6 +90,7 @@ label #cancel {
 }
 
 .main-nav{
+  font-family: Dancing Script;
     color: #fff;
     background-color: #506987;
     height: 50px;
@@ -98,18 +99,18 @@ label #cancel {
 }
 
 .content {
-  margin-left: 7%;
+  margin-left: 9%;
   padding: 1px 16px;
 }
 #check:checked ~ .content {
-  margin-left: 17%;
+  margin-left: 19%;
   padding: 1px 16px;
 }
 @media screen and (max-width: 768px) {
   .content {
-    margin-left: 20%;
+    margin-left: 23%;
   }
   #check:checked ~ .content {
-    margin-left: 45%;
+    margin-left: 49%;
   }
 }
