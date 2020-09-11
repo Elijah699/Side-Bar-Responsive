@@ -101,6 +101,7 @@ label #cancel {
 .content {
   margin-left: 9%;
   padding: 1px 16px;
+  height: 1000px;
 }
 #check:checked ~ .content {
   margin-left: 19%;
@@ -111,6 +112,6 @@ label #cancel {
     margin-left: 23%;
   }
   #check:checked ~ .content {
-    margin-left: 49%;
+    display: none;
   }
 }
