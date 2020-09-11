@@ -32,7 +32,7 @@
   box-sizing: border-box;
   border-bottom: 1px solid black;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  transition: 0.4s;
+  transition: 0.8s;
   text-decoration: none;
 }
 
@@ -96,4 +96,20 @@ label #cancel {
     padding: 10px;
     text-align: left;
 }
-  
+
+.content {
+  margin-left: 7%;
+  padding: 1px 16px;
+}
+#check:checked ~ .content {
+  margin-left: 17%;
+  padding: 1px 16px;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    margin-left: 20%;
+  }
+  #check:checked ~ .content {
+    margin-left: 45%;
+  }
+}
