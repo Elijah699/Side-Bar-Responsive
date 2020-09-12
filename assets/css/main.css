@@ -6,6 +6,7 @@
 .sidebar {
   position: fixed;
   left: -250px;
+  top: 4.3em;
   width: 250px;
   height: 100%;
   background: #042331;
@@ -89,20 +90,27 @@ label #cancel {
   left: 195px;
 }
 
-.main-nav{
+.main-nav {
   font-family: Dancing Script;
-    color: #fff;
-    background-color: #506987;
-    height: 50px;
-    padding: 10px;
-    text-align: left;
+  color: #fff;
+  background-color: #506987;
+  height: 50px;
+  padding: 10px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
 }
 
 .content {
   margin-left: 9%;
   padding: 1px 16px;
-  height: 1000px;
+  /* height: 1000px; */
 }
+
+.content h2{
+  margin-top: 3.5em;
+}
+
 #check:checked ~ .content {
   margin-left: 19%;
   padding: 1px 16px;
